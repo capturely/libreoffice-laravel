@@ -1,0 +1,31 @@
+{
+    "name": "capturely/libreoffice-laravel",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "illuminate/support": "^8.0",
+        "ext-fileinfo": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^v6.4.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Capturely\\LibreOffice\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Capturely\\LibreOffice\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bogdan Kharchenko",
+            "email": "scriptor@gmail.com"
+        }
+    ]
+}
