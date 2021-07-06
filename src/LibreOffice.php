@@ -14,7 +14,7 @@ class LibreOffice
 	
 	protected ?string $file;
 	
-	protected ?string $to;
+	protected string $to = 'pdf';
 	
 	protected string $accept;
 	
